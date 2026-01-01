@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg form</title>
+</head>
+<body>
+    <h1>Registration form for joining Web development course.....</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullName">First name:</label>
+            <input type="First name"
+            id="First Name"
+            name="First name"
+            placeholder="Enter your First name..."
+            >
+            <br/>
+            <br>
+            <label for="Last Name">Last Name: </label>
+            <input type="Last Name" id="last name"
+            name="Last name"
+            placeholder="Enter your last name...">
+            <br><br>
+            <label for="Enamil">Email     :</label>
+            <input type="email"
+            name="Email" id="Email" placeholder="Enter your Email...">
+            <br><br><label type="Number">Phone Number :</label>
+            <input type="tel" name="Number"
+            id="Number" placeholder="Enter your phone number...">
+            <br><br>
+            <label type="Date">Birth Date :</label>
+            <input type="date" name="birthDate"
+            id="birthDate" placeholder="enter Birth Date">
+            <br><br>
+            <label type="religion">Religion :</label>
+            <input type="text" id="religion" name="Religion"
+            placeholder="your Religion...">
+            <br><br><label>marital status :
+            <select type="status">
+                <option value="unmarried">Unmarried</option>
+                <option value="married">married</option>
+            </select>
+            </label>
+            <br><br>
+            <label for="Nationality">Nationality :</label>
+            <input type="Nationality" name="Nationality" id="Nationality"
+            placeholder="Your nationality">
+        </fieldset> 
+        <fieldset>
+            <legend>course details</legend>
+            <label for="course">Select course:</label>
+            <select name="Course" id="course" >
+                <option value="css">Css</option>
+                <option value="html">Html</opttion>
+                <option value="JavaScript">Java script</opttion>
+                <option value="Github">Git & GitHub</opttion>
+                <option value="Pythone">Pythone</opttion>
+            </select>
+            <br><br>
+            <label>batch timing: <br></label><input type="radio" name="timing"><label>
+                Morning(10 AM - 1 PM) <br>
+            </label>
+            <input type="radio" name="timing" id="morning" value="morning">
+            <label for="afternoon" value="afternoon">Afternoon(2.00 PM - 5 PM)</label><br>
+            <input type="radio" name="timing" id="evening" value ="evening" > Evening(6 PM - 9 PM)
+            <br><br>
+            <label for="checkbox">Additional Skills</label><br>
+            <input type="checkbox" name="skills" id="git">Git & GitHub <br>
+            <input type="checkbox" name="skills" id="design">UI/UX Design <br>
+            <input type="checkbox" name="skills" id="Data">Database Management <br><br>
+        
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="address">Address:</label><br>
+            <textarea name="Address" id="address" rows="5" cols="50" placeholder="Enter your complete Address..." required></textarea>
+            <br><br>
+            <label for="photo">Upload photo:</label>
+            <input type="file" id="photo" name="photo" accept="image"><br>
+            <label for="confidence">your confidence:</label>
+            <input type="range" min="1" max="10" value="7"><br>
+            <label for="color">Favourite Color:</label>
+            <input type="color"  >
+        </fieldset>
+    </form>
+    
+</body>
+</html>

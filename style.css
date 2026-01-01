@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: white;
+    background-color: rgb(161, 112, 106);
+    display:flex;
+    justify-content: space-between;
+    text-align: right;
+    
+}
+#bo{
+    text-align: right;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 5px;
+    float: inline-end;
+}
+.second {
+    background-color: rgb(226, 226, 140);
+    padding: 70px;
+
+}
+.footer{
+    color: aliceblue;
+    background-color: gray;
+    padding: 50px;
+    margin:10px
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    
+}
