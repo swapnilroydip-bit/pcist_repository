@@ -1,0 +1,123 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+.Navbar a{
+      color: rgb(255, 255, 255);
+        
+      text-decoration: none;
+   
+}
+.Navbar{
+ border-radius: 20px;
+ margin: 20px;
+ padding: 25px;
+ border-radius: 20px;
+ background-color: rgb(236, 48, 48);
+ justify-content: space-between;
+  display: flex;
+  
+}
+p{
+    background-color: ;
+} 
+h1 {
+    text-align: center;
+    font-family: "Noto Sans",sans-serif;
+    background-image: url(wo.jpeg) ;
+    background-size: cover;
+    background-clip: text;
+    color:transparent;
+    animation: animate 2s linear infinite;
+
+}
+@keyframes animate {
+    to{
+        background-position-x: -500px;
+    }
+    
+}
+#About p{
+    color: white;
+    font-family: "Noto Sans",sans-serif;
+    background-image: url(wow.jpeg) ;
+    background-size: cover;
+    animation: animate 5s linear infinite;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    padding: 20px;
+    
+    
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 1);
+
+}
+@keyframes animate {
+    to{
+        background-position-x: -500px;
+    }
+}
+ #projects p{
+    color: white;
+    font-family: "Noto Sans",sans-serif;
+    background-image: url(wow.jpeg) ;
+    background-size: cover;
+    animation: animate 5s linear infinite;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    padding: 20px;
+    
+    
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 1);
+
+}
+@keyframes animate {
+    to{
+        background-position-x: -500px;
+    }
+ }
+ #Skills ol{
+   color: white;
+    font-family: "Noto Sans",sans-serif;
+    background-image: url(wow.jpeg) ;
+    background-size: cover;
+    animation: animate 5s linear infinite;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    padding: 20px;
+    
+    
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 1);
+
+}
+@keyframes animate {
+    to{
+        background-position-x: -500px;
+    }
+}
+#Contact {
+    color: white;
+    background-color: #333333 ;
+    text-align: center;
+    padding: 20px;
+    
+}
+footer {
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding:20px;
+}
